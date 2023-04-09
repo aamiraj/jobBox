@@ -11,6 +11,10 @@ import PrivateRoute from "../utils/PrivateRoute";
 import AddJob from "../pages/employeeDashboard/AddJob";
 import EmployerDashboard from "../pages/employeeDashboard/EmployerDashboard";
 import CandidateDashboard from "../pages/candidateDashboard/CandidateDashboard";
+import AppliedJobs from "../pages/candidateDashboard/AppliedJobs";
+import PostedJobDetails from "../pages/employeeDashboard/PostedJobDetails";
+import CandidateDetails from "../components/reusable/CandidateDetails";
+import ChatRoom from "../pages/ChatRoom";
 
 const routes = createBrowserRouter([
   {
@@ -68,12 +72,28 @@ const routes = createBrowserRouter([
         element: <AddJob />,
       },
       {
+        path: "applied-jobs",
+        element: <AppliedJobs />,
+      },
+      {
         path: "employer",
         element: <EmployerDashboard />,
       },
       {
         path: "candidate",
         element: <CandidateDashboard />,
+      },
+      {
+        path: "job-details/:id",
+        element: <PostedJobDetails />,
+      },
+      {
+        path: "candidate-details/:id",
+        element: <CandidateDetails />,
+      },
+      {
+        path: "chat-room/:id",
+        element: <ChatRoom />,
       },
     ],
   },

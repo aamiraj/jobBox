@@ -1,3 +1,34 @@
+# JobBox App
+Starter project is provided by [Mir Hussain](https://github.com/mir-hussain/jobbox-starter), Programming Hero.
+It is an assignment project for the course of "Redux From Beginner Level To Advanced" by Programming Hero.
+This course is instructed by [Mir Hussain](https://github.com/mir-hussain).
+
+# Requirements for this assignment - 
+
+## Tech Stack 
+* React
+* Redux Toolkit
+* RTQ Query
+
+## Tasks:
+
+### Employer:
+
+1. The Employer can see the application count for an open position.
+
+2. The employer can close any position at any time.
+
+3. He/she should be able to see the candidate's detail information.
+
+4. The employer can send a direct message to the candidate.
+
+### Candidate:
+
+1. Candidates can filter the "applied job" based on date and approval state.
+
+2. Candidates can reply to the direct message, like a real-time chat application.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -21,7 +21,7 @@
   [type="week"],
   select,
   select[multiple] {
-    @apply text-lg py-2 px-5  border border-gray-300 focus:border-primary focus:ring-primary rounded-full;
+    @apply text-lg py-2 px-10  border border-gray-300 focus:border-primary focus:ring-primary rounded-full;
   }
 
   textarea {
@@ -39,4 +39,29 @@
 
 .btn {
   @apply px-4 py-2 border border-primary text-primary rounded-full hover:bg-primary hover:text-white transition-all hover:px-6 disabled:text-gray-300 disabled:border-gray-300 disabled:hover:px-4 disabled:hover:bg-transparent disabled:cursor-not-allowed;
+}
+
+.btn-error {
+  @apply px-4 py-2 border border-error text-error rounded-full hover:bg-error hover:text-white transition-all hover:px-6 disabled:text-gray-300 disabled:border-gray-300 disabled:hover:px-4 disabled:hover:bg-transparent disabled:cursor-not-allowed;
+}
+
+.btn-success {
+  @apply px-4 py-2 border border-success text-success rounded-full hover:bg-success hover:text-white transition-all hover:px-6 disabled:text-gray-300 disabled:border-gray-300 disabled:hover:px-4 disabled:hover:bg-transparent disabled:cursor-not-allowed;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
 }
